@@ -1,0 +1,195 @@
+body{
+	background-color:#2D3047;
+	margin:0px;
+}
+
+.First{
+	background-image:url('http://i.imgur.com/h0YIuv8.jpg');
+	background-position: center 75%;
+	height:650px;
+}
+
+#LOGO{
+    position: relative;
+    left: 60px;
+}
+
+.Navigation{
+	list-style-type: none;
+	height: 40px;
+	padding:0;
+	margin:0;
+}
+
+.Navigation li{
+    float:left;
+    position:relative;
+    left: 70px;
+    padding:0;
+    line-height: 40px;
+}
+
+
+
+.Navigation li a{
+	display:block;
+	font-family: 'Lato', sans-serif;
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 20px;
+	padding:5px 25px;
+	text-decoration:none;
+}
+
+.Navigation li a:hover{
+    color: #E0CA3C;
+}
+
+.Navigation li ul{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    width: 180px;
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+}
+
+.Navigation li:hover ul{
+	opacity:1;
+}
+
+.Navigation li ul li{
+	position:static;
+	height: 0;
+	line-height: 0;
+}
+
+.Navigation li:hover ul li{
+	height:30px;
+	line-height:20px;
+	padding: 5px 0;
+}
+
+.Navigation li ul li a{
+	font-family: 'Lato', sans-serif;
+	color:#000000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Second{
+    position: relative;
+    left:20px;
+    font-family:'Lato', sans-serif;
+	font-size: 50px;
+	color:#FFFFFF;	
+	padding:30px;
+}
+
+.Third{
+	background-color:#048A81;
+}
+
+nav li{
+	display: inline;
+	margin-right: 100px	
+}
+
+nav ul{
+	display:inline;
+	float: right;
+}
+
+nav a {
+  font-family:'Lato', sans-serif;	
+  height: 30px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+
+.introduce{
+	display: flex;
+	position: relative;
+	left:50px;
+}
+
+#Information{
+	position: relative;
+	right: 0px;
+	top: 10px;
+	color: #FFFFFF;
+	font-family:'Lato', sans-serif;
+}
+
+#title{
+	color: #93B7BE;
+}
+
+.About{
+	font-size: 50px;
+	color:#E0CA3C;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+.content{
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	border: 2px solid #93B7BE;
+	margin:25px; 
+    text-align: center;
+    padding: 30px;
+    color:#FFFFFF;
+}
+
+#Skills{
+	font-size: 50px;
+	color:#E0CA3C;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+.bar{
+    color: #93B7BE;
+    font-family: '微軟正黑體';
+	font-size: 20px;
+	display: inline-block;
+    text-align:right;
+    position: relative;
+    left:30px;
+}
+
+#barname{
+	color:#A799B7;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	text-align:center;
+}
+
+.habit{
+	display: flex;
+	justify-content: center;
+}
+
+#word{
+	font-size: 50px;
+	color: #93B7BE;
+    text-align:center; 
+    font-family: 'Lato', sans-serif;
+}
+
+#word2{
+	font-size: 15px;
+	color:#FFFFFF;
+    text-align:center;
+}
+
+.container{
+    background-color:#048A81;
+    color: #FFFFFF;
+    text-align:right;
+    margin-bottom: 0px
+}
